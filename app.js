@@ -19,13 +19,24 @@ dice2.addEventListener('click', function onClick() {
 boxes.forEach((box) => {
   box.addEventListener('click', function onClick() {
     boxes.forEach((el) => {
+      if (el.style.backgroundColor === colors[color]) {
+        el.style.backgroundColor = 'white'
+      }
+    })
+    box.style.backgroundColor = 'white'
+  })
+})
+/* boxes.forEach((box) => {
+  box.addEventListener('click', function onClick() {
+    boxes.forEach((el) => {
       if (el.style.backgroundColor === 'white') {
         el.style.backgroundColor = 'black'
       }
     })
     box.style.backgroundColor = 'white'
   })
-})
+}) */
+
 /*   */
 
 /*  {
