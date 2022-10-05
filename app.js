@@ -26,3 +26,10 @@ boxes.forEach((box) => {
     box.style.backgroundColor = 'white'
   })
 })
+/*   */
+
+/*  {
+    boxes.forEach((el) => {
+      if (el.style.backgroundColor === 'white') {
+        el.style.backgroundColor = 'black'
+      } */
