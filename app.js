@@ -11,6 +11,11 @@ dice.addEventListener('click', function onClick() {
   color = color >= colors.length - 1 ? 0 : color + 1
 })
 
+dice2.addEventListener('click', function onClick() {
+  dice2.style.backgroundColor = colors2[color]
+  color = color >= colors2.length - 1 ? 0 : color + 1
+})
+
 boxes.forEach((box) => {
   box.addEventListener('click', function onClick() {
     boxes.forEach((el) => {
