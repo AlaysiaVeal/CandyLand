@@ -1,19 +1,16 @@
 const dice = document.querySelector('.dice')
+const dice2 = document.querySelector('.dice2')
 const colors = ['lightskyblue', 'plum', 'palevioletred', 'lightgoldenrodyellow']
 const boxes = document.querySelectorAll('.box')
+const colors2 = ['#CCFFFF', '#663300', '#000000', '#FFFFFF']
 
-function randomColor(colors) {
-  return [Math.floor(Math.random() * colors.length)]
-}
 let color = 0
 
 dice.addEventListener('click', function onClick() {
   dice.style.backgroundColor = colors[color]
   color = color >= colors.length - 1 ? 0 : color + 1
 })
-/* box.addEventListener('click', function onClick() {
-  box.style.backgroundColor = 'white'
-}) */
+
 boxes.forEach((box) => {
   box.addEventListener('click', function onClick() {
     boxes.forEach((el) => {
