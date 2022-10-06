@@ -5,13 +5,6 @@ const boxes = document.querySelectorAll('.cell')
 const colors2 = ['#CCFFFF', '#663300', '#FFFFFF']
 const cell = document.querySelectorAll('.cell')
 
-let player1 = document.getElementsByClassName('.gumDrop')
-let player2 = document.getElementsByClassName('.bubbleGum')
-let gamePieces = document.querySelectorAll('.game-pieces')
-let color = 0
-let turn = true
-let currentPlayer = 0
-
 dice.addEventListener('click', function onClick() {
   dice.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)]
 })
