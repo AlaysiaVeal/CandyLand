@@ -27,7 +27,8 @@ h2 {
   margin-top: 10px;
 }
 .box {
-  border: solid white;
+  border-radius: 10%;
+  border-color: antiquewhite;
   background-color: black;
 }
 #box12, #box22, #box32, #box4, #box24, #box16, #box26, #box36, #box8, #box28,#box20, #box30, #box40{
@@ -56,6 +57,7 @@ button {
 #box14, #box18 {
   background-image: url('https://images-na.ssl-images-amazon.com/images/I/61qD2maJhXL._AC_SY679_.jpg');
   background-size: cover;
+  background-color: aliceblue;
 }
 #box34, #box39{
   background-image: url('http://clipart-library.com/img1/1407083.png');
@@ -64,15 +66,25 @@ button {
 #box9, #box1{
   background-image:url('https://clipartmag.com/images/cartoon-snowflake-pictures-9.png') ;
   background-size: cover;
+  background-color: aliceblue;
 }
 #box21,#box27 {
   background-image: url('https://clipartix.com/wp-content/uploads/2016/04/Mint-candy-clipart-dayasriod-top-3.png');
   background-size: cover;
+  background-color: aliceblue;
 }
+ #box21, #box1, #box14, #box34, #box27, #box18, #box39, #box9 {
+    border-radius: 20%;
+}
+
 .game-pieces {
   margin-top: 30px;
 }
 .gumDrop {
   background-image: url('https://clipground.com/images/clipart-gumdrops-4.png') !important;
+  background-size: cover;
+}
+.bubbleGum {
+  background-image: url('http://cliparts.co/cliparts/pi5/raz/pi5raz6bT.png') !important;
   background-size: cover;
 }
