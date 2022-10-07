@@ -4,7 +4,8 @@
 
 ### By: Alaysia Veal
 
-[Trello](https://trello.com/invite/b/UpXOxJkX/7a99f314b304cf57ebaa71daedf88c90/candy-land-project)
+[Trello](https://trello.com/invite/b/UpXOxJkX/7a99f314b304cf57ebaa71daedf88c90/candy-land-project) |
+[Website](https://MyCuteCandyLand.surge.sh)
 
 ### **Description**
 
