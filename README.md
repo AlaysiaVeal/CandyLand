@@ -9,7 +9,7 @@
 
 ### **Description**
 
-#### A Candy Land Board Game with one player and 2 multicolored die to decide which space to land on. One is for the regular spaces a player could land on and the other is for the special spaces with images of gingerbread, snowflakes, mint, and even black licorice.
+#### A Candy Land Board Game with one player and 2 multicolored die to decide which space to land on. One is for the regular spaces a player could land on and the other is for the special spaces with images of gingerbread, snowflakes, and mint.
 
 ### **Function**
 
@@ -29,8 +29,6 @@
 
 ##### Image5:[bing](https://clipartmag.com/images/cartoon-snowflake-pictures-9.png)
 
-##### Image6: [bing](http://clipart-library.com/img1/1407083.png)
+##### Image6: [bing](https://images-na.ssl-images-amazon.com/images/I/61qD2maJhXL._AC_SY679_.jpg)
 
-##### Image8: [bing](https://images-na.ssl-images-amazon.com/images/I/61qD2maJhXL._AC_SY679_.jpg)
-
-##### Image9: [bing](https://i.pinimg.com/originals/7d/f0/ab/7df0abeb54a99defd13978337400e98f.jpg)
+##### Image7: [bing](https://i.pinimg.com/originals/7d/f0/ab/7df0abeb54a99defd13978337400e98f.jpg)

@@ -4,6 +4,9 @@ const colors = ['lightskyblue', 'plum', 'palevioletred', 'lightgoldenrodyellow']
 const boxes = document.querySelectorAll('.cell')
 const colors2 = ['#CCFFFF', '#663300', '#FFFFFF']
 const cell = document.querySelectorAll('.cell')
+const button = document.querySelector('button')
+const lastCell = document.querySelector('.last-cell')
+const statusDisplay = document.querySelector('h4')
 
 dice.addEventListener('click', function onClick() {
   dice.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)]
@@ -22,4 +25,7 @@ boxes.forEach((box) => {
     })
     box.classList.toggle('gumDrop')
   })
+})
+lastCell.addEventListener('click', function onClick() {
+  statusDisplay.innerHTML = 'YOU WON!'
 })
