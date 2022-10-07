@@ -6,7 +6,7 @@ const colors2 = ['#CCFFFF', '#663300', '#FFFFFF']
 const cell = document.querySelectorAll('.cell')
 const button = document.querySelector('button')
 const lastCell = document.querySelector('.last-cell')
-const statusDisplay = document.querySelector('h4')
+const statusDisplay = document.querySelector('.score-display')
 
 dice.addEventListener('click', function onClick() {
   dice.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)]

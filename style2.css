@@ -16,6 +16,9 @@ h2 {
   text-align: center;
   color: plum;
 }
+h3 {
+  font-size: 30px;
+}
 #play-game {
   width: 100px;
   height: 100px;
