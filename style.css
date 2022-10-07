@@ -4,6 +4,8 @@ body {
 }
 h1{
   font-size: 50px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
 }
 h2 {
   font-size: 30px;
@@ -25,6 +27,7 @@ h2 {
   grid-template-rows: 100px 100px 100px 100px;
   justify-content: center;
   margin-top: 10px;
+  margin-bottom: 100px;
 }
 .box {
   border-radius: 10%;
@@ -35,13 +38,6 @@ h2 {
   background-color: pink;
   border: pink;
 } 
-button {
-  width: 100px;
-  height:35px;
-  margin-top: 10px;
-  color: palegoldenrod;
-  background-color: plum;
-}
 #box31,#box2,#box33,#box15,#box17,#box39,#box10{
   background-color: lightgoldenrodyellow;
 }
@@ -73,7 +69,7 @@ button {
   background-size: cover;
   background-color: aliceblue;
 }
- #box21, #box1, #box14, #box34, #box27, #box18, #box39, #box9 {
+  #box21, #box1, #box14, #box34, #box27, #box18, #box39, #box9 {
     border-radius: 20%;
 }
 
@@ -84,7 +80,17 @@ button {
   background-image: url('https://clipground.com/images/clipart-gumdrops-4.png') !important;
   background-size: cover;
 }
-.bubbleGum {
-  background-image: url('http://cliparts.co/cliparts/pi5/raz/pi5raz6bT.png') !important;
-  background-size: cover;
+.candy1 {
+  float: right;
 }
+.candy2 {
+  float: left;
+  margin-top: -100px;
+}
+.end-point {
+  border-color: pink;
+  border-radius: 5%;
+  margin-left: 500px;
+  position: absolute;
+  top: 260px;
+} 
