@@ -9,7 +9,7 @@
 
 ### **Description**
 
-#### A Candy Land Board Game with multiple players and 2 multicolored die to decide which space to land on. One is for the regular spaces a player could land on and the other is for the special spaces with images of gingerbread, snowflakes, mint, and even black licorice.
+#### A Candy Land Board Game with one player and 2 multicolored die to decide which space to land on. One is for the regular spaces a player could land on and the other is for the special spaces with images of gingerbread, snowflakes, mint, and even black licorice.
 
 ### **Function**
 
