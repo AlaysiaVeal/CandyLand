@@ -29,3 +29,6 @@ boxes.forEach((box) => {
 lastCell.addEventListener('click', function onClick() {
   statusDisplay.innerHTML = 'YOU WON!'
 })
+button.addEventListener('click', function onClick() {
+  location.reload()
+})
