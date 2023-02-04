@@ -1,6 +1,5 @@
 body {
-  background-image: url('https://i.pinimg.com/originals/7d/f0/ab/7df0abeb54a99defd13978337400e98f.jpg');
-  background-size: cover;
+  background-color: pink;
   margin: auto;
   text-align: center;
 }
@@ -8,7 +7,7 @@ h1{
   font-size: 110px;
   text-align: center;
   margin-top: 400px;
-  font-style: italic;
+  font-family: cursive;
   color: palevioletred;
 }
 h2 {

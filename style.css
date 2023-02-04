@@ -11,7 +11,7 @@ h2 {
   font-size: 30px;
   padding-top: 30px;
 }
-.dice, .dice2 {
+.dice {
   background-color: white;
   width: 100px;
   height: 100px;
@@ -87,4 +87,8 @@ button {
   height: 50px;
   background-color: plum;
   color: palevioletred;
+}
+.bubbleGum {
+  background-image: url('https://cdn.imgbin.com/2/9/21/imgbin-chewing-gum-bubble-gum-dubble-bubble-gumball-machine-chewing-gum-KRHuXgXcb010L5USS3hL2xUF3.jpg') !important;
+  background-size: cover;
 }
